@@ -5,8 +5,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: none;
 }
-body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; background: #fff; font-family: 'Open Sans', sans-serif;}
-body, button, input, select, textarea { color: #333; }
+body { margin: 0 auto; max-width: 45em; font-size: 14px; line-height: 1.61; font-weight: 400; background: #fff; font-family: 'Open Sans', sans-serif; color: #333;}
 
 a { color: #12C; }
 a:visited { color: #61C; }
@@ -14,8 +13,6 @@ a:focus { outline: thin dotted; }
 a:hover, a:active { color: #c00; outline: 0; }
 
 img { border: 0; max-width: 100%; }
-
-header, footer, .container { max-width: 45em; margin: 0 auto; }
 
 header { padding: 0 0.5em; color: #C90B0B; }
 header img { border-radius: 40px; float: left; }
