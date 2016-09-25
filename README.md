@@ -20,6 +20,7 @@ document.body.scrollTop present inside a for loop that causes the FSL.
 4. Also every time when updatePositions is called it finds all the element with class .mover and stores it in a variable name items.
 5. I have created a variable items in the global scope and updated it once when the .mover elements are being created.
 6. Fixed the FSL problem in changePizzaSizes by calculating the dx once and offsetWidth once. So there is no need to call offsetWidth again and again inside the for loop.
+7. When no. of pizza's are hardcoded to 200 in the code. I have changed the code so that the number of pizzas is now calculated using the window.screen.height properties.
 
 ### Getting started
 
